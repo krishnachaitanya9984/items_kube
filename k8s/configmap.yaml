@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: items-kube-config
+  namespace: default
+data:
+  AWS_REGION: "ap-south-1"
+  DYNAMO_TABLE: "my-items"
+  PORT: "3000"
